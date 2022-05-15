@@ -27,12 +27,17 @@ body {
 }
 
 .greeting {
-  font-size: 3em;
+  font-size: 6em;
+  display: inline;
+}
+
+img {
+  width: 100%;
 }
 .maine {
   display: grid;
   padding: 2em;
-  margin-top: 30vh;
+  margin-top: 3em;
   grid-gap: 1em;
   grid-template-columns: 1fr 1fr;
 }
